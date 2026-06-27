@@ -1,5 +1,4 @@
-import 'package:application_clean/feature/auth/login/ui/login_views.dart';
-import 'package:application_clean/feature/auth/register/ui/register_ui.dart';
+import 'package:application_clean/welcome_screens/welcome_screen1.dart';
 import 'package:device_preview/device_preview.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
@@ -21,7 +20,7 @@ class MyApp extends StatelessWidget {
       builder: (_, child) {
         return MaterialApp(
           debugShowCheckedModeBanner: false,
-          home: RegisterView(),
+          home: WelcomeScreen1(),
         );
       },
     );
